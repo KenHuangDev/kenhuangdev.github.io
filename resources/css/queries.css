@@ -1,0 +1,83 @@
+/* screens that are 768 to 1023px */
+/* big tablets to 1200px width smaller than the 1140px .row class */
+@media only screen and (max-width: 1200px) {
+  .header-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* screens that are at least 1200px */
+@media only screen and (min-width: 1200px) {
+  .box-container>* {
+    flex: 1 1 160px;
+  }
+}
+
+/* screens that are 768px to 1023px */
+/* small tablets to big tablets */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+  
+  footer {
+    padding: 50px 0;
+  }
+}
+
+
+/* screens that are 481px to 767px */
+/* small phones to small tablets */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .header-text-box {
+    padding: 0 4%;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .box-container {
+    flex-wrap: wrap;
+  }
+
+  .box-container .box {
+    width: 100%;
+  }
+}
+
+
+/* screens that are 0 to 480px */
+/* small phones */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+}
