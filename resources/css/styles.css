@@ -195,6 +195,17 @@ header {
   left: -5px;
 }
 
+.section-testimonials cite {
+  font-size: 90%;
+  margin-top: 30px;
+  display: block;
+}
+
+.section-testimonials cite::before {
+  content: '\7E';
+  display: inline-block;
+  margin-right: 3px;
+}
 
 /* -------------------------------------------------- */
 /* footer */
