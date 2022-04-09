@@ -170,10 +170,6 @@ header {
 /* Quality of work */
 /* -------------------------------------------------- */
 
-.section-work {
-  margin-bottom: 16px;
-}
-
 .section-work .long-copy {
   margin-bottom: 32px;
 }
@@ -181,6 +177,10 @@ header {
 p.quality-work {
   font-size: 120%;
   font-weight: 300;
+}
+
+.quality-work-photo {
+  margin: 0;
 }
 
 /* -------------------------------------------------- */
