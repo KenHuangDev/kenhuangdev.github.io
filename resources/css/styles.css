@@ -167,6 +167,23 @@ header {
 }
 
 /* -------------------------------------------------- */
+/* Quality of work */
+/* -------------------------------------------------- */
+
+.section-work {
+  margin-bottom: 16px;
+}
+
+.section-work .long-copy {
+  margin-bottom: 32px;
+}
+
+p.quality-work {
+  font-size: 120%;
+  font-weight: 300;
+}
+
+/* -------------------------------------------------- */
 /* Testimonials */
 /* -------------------------------------------------- */
 
@@ -275,4 +292,3 @@ footer p {
 .social-links li a:visited {
   font-size: 160%;
 }
- 
